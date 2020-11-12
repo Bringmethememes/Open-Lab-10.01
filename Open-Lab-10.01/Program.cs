@@ -6,6 +6,7 @@ namespace Open_Lab_10._00
     {
         static void Main(string[] args)
         {
+            Console.WriteLine();
             Book LOTR = new Book();
             LOTR.SetBook("Plebovia a ich vyskyt", 888);
             Console.ReadKey();
