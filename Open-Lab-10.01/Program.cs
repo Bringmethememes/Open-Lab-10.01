@@ -13,10 +13,12 @@ namespace Open_Lab_10._00
     }
     class Book
     {
+        public string title;
+        private int pages;
         public void SetBook(string title, int pages)
         {
-            Console.Write("Book " + title + " has " + pages);
-            Console.WriteLine(" pages.");
+            Console.Write("Book " + title + " has " + pages + " pages.");
+            
         }
     }
 
